@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+-   Add BladeOne Template Engine library dependencies.
+-   Add BladeOne classes and render function to Base Controller.
+-   Add Template Partials to Modularize HTML.
+
+### Changed
+
+-   Update Home Controller to use render function.
+-   Rename welcome_message.php to welcome_message.blade.php.
+-   Convert welcome_message.blade.php to child of layout.blade.php.
+
 ## [1.0.0] - 2022-08-07
 
 ### Added
